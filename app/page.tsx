@@ -23,15 +23,6 @@ export default function Home() {
 
   return (
     <div className="justify-center w-full flex text-center pt-10 flex-col items-center">
-      {/* Gambar dari Google Drive */}
-      <Image
-        src="https://drive.google.com/uc?export=view&id=1sRLxNW0acJyOJdflhEF30QiqNkuSaw03"
-        alt="HUMANIKA Logo"
-        width={200}
-        height={100}
-        className="mb-4"
-      />
-
       <h1>Home</h1>
       <Link href={authorizationUrl}>
         <Button>Login with Google</Button>
